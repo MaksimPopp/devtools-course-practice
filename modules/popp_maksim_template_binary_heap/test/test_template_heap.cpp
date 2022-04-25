@@ -86,7 +86,7 @@ TEST(THeap, Can_get_size) {
   a.Push(10);
 
   // Assert
-  ASSERT_EQ(3, a.GetSize());
+  ASSERT_EQ(static_cast<std::size_t>(3), a.GetSize());
 }
 
 TEST(THeap, Can_use_copy_ctor) {
