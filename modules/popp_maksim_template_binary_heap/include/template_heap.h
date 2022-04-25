@@ -1,4 +1,5 @@
 // Copyright 2022 Popp Maksim
+
 #ifndef MODULES_POPP_MAKSIM_TEMPLATE_BINARY_HEAP_INCLUDE_TEMPLATE_HEAP_H_
 #define MODULES_POPP_MAKSIM_TEMPLATE_BINARY_HEAP_INCLUDE_TEMPLATE_HEAP_H_
 
@@ -105,8 +106,8 @@ int THeap<T>::GetRightChild(int parent) {
 
 template <typename T>
 void THeap<T>::PrintHeap() {
-  int i = 0;
-  int k = 1;
+  size_t i = 0;
+  size_t k = 1;
   while (i < this->GetSize()) {
     while ((i < k) && (i < this->GetSize())) {
       std::cout << vec[i] << "  ";
