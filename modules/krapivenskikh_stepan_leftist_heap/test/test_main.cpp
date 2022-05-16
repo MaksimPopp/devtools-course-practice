@@ -1,4 +1,4 @@
-// Copyright 2022 Krapivenskikh Stepan
+// Copyright 2020 Vlasov Andrey
 
 #include <gtest/gtest.h>
 
