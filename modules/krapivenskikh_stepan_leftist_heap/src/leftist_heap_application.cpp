@@ -1,4 +1,4 @@
-// Copyright 2020 Tihomirova Mariya
+// Copyright 2022 Popp Maksim
 
 #include <stdexcept>
 #include <vector>

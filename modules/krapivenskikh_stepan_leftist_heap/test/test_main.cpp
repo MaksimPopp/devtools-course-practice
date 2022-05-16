@@ -1,4 +1,4 @@
-// Copyright 2020 Vlasov Andrey
+// Copyright 2022 Popp Maksim
 
 #include <gtest/gtest.h>
 

@@ -1,4 +1,4 @@
-// Copyright 2020 Vlasov Andrey & Tihomirova Mariya
+// Copyright 2022 Krapivenskikh Stepan & Popp Maksim
 
 #include "include/leftist_heap.h"
 #include <stdexcept>
